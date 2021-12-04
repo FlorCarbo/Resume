@@ -12,6 +12,8 @@
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Animaciones-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
@@ -25,13 +27,11 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#training">Training</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
-                    
+                    <li class="nav-item animate__animated animate__bounceIn animate__delay-1s	1s"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item animate__animated animate__bounceIn animate__delay-2s	2s"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+                    <li class="nav-item animate__animated animate__bounceIn animate__delay-3s	3s"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                    <li class="nav-item animate__animated animate__bounceIn animate__delay-4s	4s"><a class="nav-link js-scroll-trigger" href="#training">Training</a></li>
+                    <li class="nav-item animate__animated animate__bounceIn animate__delay-5s	5s"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>                 
                 </ul>
             </div>
         </nav>
@@ -40,7 +40,7 @@
             <!-- About-->
             <section class="resume-section" id="about">
                 <div class="resume-section-content">
-                    <h1 class="mb-0">
+                    <h1 class="mb-0 animate__animated animate__backInDown">
                         Florencia   
                         <span class="text-primary">Carbonara</span>
                     </h1>
@@ -48,12 +48,13 @@
                         Argentina - CABA - Palermo · (+54) 9 11 6376 5679 ·
                         <a href="mailto:florenciacarbonara@gmail.com">florenciacarbonara@gmail.com</a>
                     </div>
-                    <p class="lead mb-5">Payroll Operation Leader Latam en Meta4 / Lic. Tecnología Educativa (tesis en curso) / Analista de Sistemas.</p>
+                    <p class="lead mb-5">Hello! My name is <b style="color:rgb(194, 26, 82);"> Florencia </b>, I have a Technical degree in Systems Analysis and a Technical degree in HR. In July 2021 I finished studing the Bachelor of Educational Technology 
+                        and I am working on my thesis about gamification. My work experience is developed in different areas of work including IT and Payroll. Currently I work as a Payroll Operation Leader for Latin America region at Cegid Meta4 providing 
+                        saas services. On the other hand this year I started some training courses such as Full Stack Python, "I know how to program" and "I program". 
+                      <i style="color:rgb(194, 26, 82);">  I am looking forward to change my area of ​​work starting in the IT sector and continue developing  professionally. </i>  </p>
                     <div class="social-icons">
                         <a class="social-icon" href="https://www.linkedin.com/in/florencia-carbonara/"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="social-icon" href="#!"><i class="fab fa-github"></i></a>
-                        <a class="social-icon" href="#!"><i class="fab fa-twitter"></i></a>
-                        <a class="social-icon" href="#!"><i class="fab fa-facebook-f"></i></a>
+                        <a class="social-icon" href="https://github.com/FlorCarbo"><i class="fab fa-github"></i></a>
                     </div>
                 </div>
             </section>
@@ -284,12 +285,11 @@
                         <li class="list-inline-item"><i class="fab fa-html5"></i></li>
                         <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
                         <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-angular"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-react"></i></li>
                         <li class="list-inline-item"><i class="fab fa-python"></i></li>
                         <li class="list-inline-item"><i class="fas fa-database"></i></li>
                     </ul>
                     <ul class="fa-ul mb-0">
+                        <li> <span class="fa-li"><i class="fas fa-arrow-right"></i></span> SQL </li>
                         <li> <span class="fa-li"><i class="fas fa-arrow-right"></i></span> Kanban / Planner</li>
                         <li> <span class="fa-li"><i class="fas fa-arrow-right"></i></span> Jira </li>
                         <li> <span class="fa-li"><i class="fas fa-arrow-right"></i></span> Genially</li>
@@ -324,14 +324,14 @@
                 </div>
             </section>
             <hr class="m-0" />
-            <!-- Interests-->
+            <!-- Interests
             <section class="resume-section" id="interests">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Interests</h2>
-                    <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-                    <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
+                    <p></p>
+                    <p class="mb-0"></p>
                 </div>
-            </section>
+            </section> -->
         </div>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
