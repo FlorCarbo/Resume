@@ -112,7 +112,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 }
 
 h1, .h1 {
-  font-size: calc(1.725rem + 1.7vw); /*1.725rem + 5.7vw*/
+  font-size: calc(1.3rem + 1.7vw); /*1.725rem + 5.7vw*/
 }
 @media (min-width: 1200px) {
   h1, .h1 {
@@ -121,7 +121,7 @@ h1, .h1 {
 }
 
 h2, .h2 {
-  font-size: calc(1.075rem + 1.7vw); /*1.475rem + 2.7vw*/
+  font-size: calc(1rem + 1.3vw); /*1.475rem + 2.7vw*/
 }
 @media (min-width: 1200px) {
   h2, .h2 {
@@ -130,7 +130,7 @@ h2, .h2 {
 }
 
 h3, .h3 {
-  font-size: calc(1rem + 0.5vw); /*1.325rem + 0.9vw*/
+  font-size: calc(1rem + 0.3vw); /*1.325rem + 0.9vw*/
 }
 @media (min-width: 1200px) {
   h3, .h3 {
@@ -139,7 +139,7 @@ h3, .h3 {
 }
 
 h4, .h4 {
-  font-size: calc(1.275rem + 0.3vw);
+  font-size: calc(1rem + 0.1vw); /*1.275rem + 0.3vw*/
 }
 @media (min-width: 1200px) {
   h4, .h4 {
@@ -238,11 +238,11 @@ sup {
 }
 
 a {
-  color: #bd5d38;
+  color: #ac084c;
   text-decoration: underline;
 }
 a:hover {
-  color: #974a2d;
+  color: #ec1a72;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -3993,6 +3993,9 @@ textarea.form-control-lg {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
+.animate__animated.animate__backInDown {
+  --animate-duration: 2s;
+}
 
 .nav-pills .nav-link {
   background: none;
@@ -7380,7 +7383,7 @@ textarea.form-control-lg {
 }
 
 .mb-5 {
-  margin-bottom: 3rem !important;
+  margin-bottom: 2rem !important;
 }
 
 .mb-auto {
@@ -7942,7 +7945,7 @@ textarea.form-control-lg {
 }
 
 .rounded-circle {
-  border-radius: 50% !important;
+  border-radius: 5% !important;
 }
 
 .rounded-pill {
@@ -11363,9 +11366,9 @@ p.lead {
     padding: 0.5rem;
   }
   #sideNav .navbar-brand .img-profile {
-    max-width: 10rem;
-    max-height: 10rem;
-    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    max-width: 15rem;
+    max-height: 15rem;
+    border: 0.1rem solid rgba(255, 255, 255, 0.2);
   }
   #sideNav .navbar-collapse {
     display: flex;
@@ -11413,8 +11416,8 @@ section.resume-section {
   align-items: center;
   padding-left: 1rem;
   padding-right: 1rem;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
   max-width: 75rem;
 }
 section.resume-section .resume-section-content {
@@ -11430,7 +11433,7 @@ section.resume-section .resume-section-content {
   section.resume-section {
     padding-left: 3rem;
     padding-right: 3rem;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
   }
 }
